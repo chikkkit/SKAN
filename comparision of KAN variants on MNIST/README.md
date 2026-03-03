@@ -21,20 +21,17 @@ rkan==0.0.3
 skan==0.2.0
 ```
 
-install skan by using:
+install skan by:
 ```bash
 pip install single-kan
 ```
 
-For efficient-kan(efficient implementation of Spl-KAN), WavKAN, FastKAN, FourierKAN, fkan and rkan, you can find at:  
-EfficientKAN/Spl-KAN: https://github.com/Blealtan/efficient-kan  
-WaKAN: https://github.com/zavareh1/Wav-KAN  
-FastKAN: https://github.com/AthanasiosDelis/faster-kan  
-FourierKAN: https://github.com/GistNoesis/FourierKAN  
-fkan: https://github.com/alirezaafzalaghaei/fKAN  
-rkan:https://github.com/alirezaafzalaghaei/rKAN  
+For efficient-kan(efficient implementation of Spl-KAN), WavKAN, FastKAN, FourierKAN, fkan and rkan, you can find at:
+  
+[EfficientKAN/Spl-KAN](https://github.com/Blealtan/efficient-kan) ,[WaKAN](https://github.com/zavareh1/Wav-KAN), [FastKAN](https://github.com/AthanasiosDelis/faster-kan)
+[FourierKAN](https://github.com/GistNoesis/FourierKAN), [fkan](https://github.com/alirezaafzalaghaei/fKAN), [rkan](https://github.com/alirezaafzalaghaei/rKAN)
 
-Place their core network file into this folder with corresponding name in LSS_LArctan_SKAN_comparison.py. fkan and rkan can be installed by using:
+Place their core network file into this folder with corresponding name in LSS_LArctan_SKAN_comparison.py. fkan and rkan can be installed by:
 ```bash
 pip install fkan
 pip install rkan
@@ -79,4 +76,5 @@ All experiments record:
 - Running time
 
 - Parameter count 
+
 
