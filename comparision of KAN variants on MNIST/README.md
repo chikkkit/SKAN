@@ -21,6 +21,25 @@ rkan==0.0.3
 skan==0.2.0
 ```
 
+install skan by using:
+```bash
+pip install single-kan
+```
+
+For efficient-kan(efficient implementation of Spl-KAN), WavKAN, FastKAN, FourierKAN, fkan and rkan, you can find at:
+EfficientKAN/Spl-KAN: https://github.com/Blealtan/efficient-kan
+WaKAN: https://github.com/zavareh1/Wav-KAN
+FastKAN: https://github.com/AthanasiosDelis/faster-kan
+FourierKAN: https://github.com/GistNoesis/FourierKAN
+fkan: https://github.com/alirezaafzalaghaei/fKAN
+rkan:https://github.com/alirezaafzalaghaei/rKAN
+
+Place their core network file into this folder with corresponding name in LSS_LArctan_SKAN_comparison.py. fkan and rkan can be installed by using:
+```bash
+pip install fkan
+pip install rkan
+```
+
 To run the experiments:
 ```bash
 # For SKAN comparison with activation-based basis functions (10 epochs)
@@ -58,4 +77,5 @@ All experiments record:
 - Training/test loss and accuracy
 - F1 score
 - Running time
+
 - Parameter count 
